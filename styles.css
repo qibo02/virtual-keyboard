@@ -60,12 +60,18 @@ button:hover {
   width: 40px;
 }
 
-.left-shift, .backspace, .enter {
+.backspace, .enter {
   width: 120px;
 }
 
+.left-shift {
+  width: 120px;
+  padding-top: 10px;
+} 
+
 .right-shift {
   width: 160px;
+  padding-top: 11px;
 }
 
 .tab {
@@ -81,11 +87,14 @@ button:hover {
 }
 
 #space {
-  width: 500px;
+  width: 600px;
   
 }
 
 #ctrl {
-  width: 183px;
+  width: 135px;
+  padding-top: 11px;
 }
+
+.upper { text-transform: uppercase;}
 
